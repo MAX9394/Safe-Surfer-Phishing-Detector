@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Safe-Surfer Detector",
+  "version": "1.0",
+  "description": "Real-time Phishing Detection",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

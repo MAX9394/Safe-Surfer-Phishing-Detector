@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 250px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        text-align: center;
+      }
+      .header {
+        color: #2c3e50;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      #checkBtn {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+      }
+      #checkBtn:hover {
+        background-color: #2980b9;
+      }
+      #result {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      .safe {
+        color: green;
+      }
+      .danger {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Safe-Surfer v1.0</div>
+    <button id="checkBtn">Scan Current Site</button>
+    <div id="result"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
