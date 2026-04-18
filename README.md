@@ -1,7 +1,7 @@
 **Safe-Surfer: AI-Powered Phishing Detection System**
 Safe-Surfer is a real-time cybersecurity tool designed to protect users from malicious phishing websites. It consists of a Brave/Chrome Extension frontend and a Flask-based Machine Learning backend trained on the UCI Phishing Website Dataset.
 
-🚀 Features
+Features
 **Deep Feature Extraction:** Extracts 30 technical parameters from any URL (Structural, Content, and Behavioral).
 **AI-Driven Analysis:** Uses a Random Forest Classifier to predict the legitimacy of a site.
 **Real-time Protection:** Scans URLs instantly through a browser extension.
